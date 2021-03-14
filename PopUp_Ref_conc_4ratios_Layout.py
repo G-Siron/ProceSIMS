@@ -1,0 +1,111 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'PopUp_Ref_conc_4ratios_Layout.ui'
+#
+# Created by: PyQt5 UI code generator 5.10.1
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_Dialog_Ref_conc_4ratios(object):
+    def setupUi(self, Dialog_Ref_conc_4ratios):
+        Dialog_Ref_conc_4ratios.setObjectName("Dialog_Ref_conc_4ratios")
+        Dialog_Ref_conc_4ratios.resize(251, 557)
+        self.buttonBox_Ref_conc_4ratios_Layout = QtWidgets.QDialogButtonBox(Dialog_Ref_conc_4ratios)
+        self.buttonBox_Ref_conc_4ratios_Layout.setGeometry(QtCore.QRect(20, 511, 191, 32))
+        self.buttonBox_Ref_conc_4ratios_Layout.setOrientation(QtCore.Qt.Horizontal)
+        self.buttonBox_Ref_conc_4ratios_Layout.setStandardButtons(QtWidgets.QDialogButtonBox.Cancel|QtWidgets.QDialogButtonBox.Ok)
+        self.buttonBox_Ref_conc_4ratios_Layout.setObjectName("buttonBox_Ref_conc_4ratios_Layout")
+        self.label_ref_conc1 = QtWidgets.QLabel(Dialog_Ref_conc_4ratios)
+        self.label_ref_conc1.setGeometry(QtCore.QRect(30, 47, 141, 16))
+        self.label_ref_conc1.setObjectName("label_ref_conc1")
+        self.label_conc1 = QtWidgets.QLabel(Dialog_Ref_conc_4ratios)
+        self.label_conc1.setGeometry(QtCore.QRect(20, 17, 201, 16))
+        self.label_conc1.setObjectName("label_conc1")
+        self.label_sigma_conc1 = QtWidgets.QLabel(Dialog_Ref_conc_4ratios)
+        self.label_sigma_conc1.setGeometry(QtCore.QRect(30, 90, 151, 16))
+        self.label_sigma_conc1.setObjectName("label_sigma_conc1")
+        self.label_ref_conc2 = QtWidgets.QLabel(Dialog_Ref_conc_4ratios)
+        self.label_ref_conc2.setGeometry(QtCore.QRect(30, 174, 141, 16))
+        self.label_ref_conc2.setObjectName("label_ref_conc2")
+        self.label_sigma_conc2 = QtWidgets.QLabel(Dialog_Ref_conc_4ratios)
+        self.label_sigma_conc2.setGeometry(QtCore.QRect(30, 217, 151, 16))
+        self.label_sigma_conc2.setObjectName("label_sigma_conc2")
+        self.label_conc2 = QtWidgets.QLabel(Dialog_Ref_conc_4ratios)
+        self.label_conc2.setGeometry(QtCore.QRect(20, 143, 201, 16))
+        self.label_conc2.setObjectName("label_conc2")
+        self.label_ref_conc3 = QtWidgets.QLabel(Dialog_Ref_conc_4ratios)
+        self.label_ref_conc3.setGeometry(QtCore.QRect(30, 301, 141, 16))
+        self.label_ref_conc3.setObjectName("label_ref_conc3")
+        self.label_sigma_conc3 = QtWidgets.QLabel(Dialog_Ref_conc_4ratios)
+        self.label_sigma_conc3.setGeometry(QtCore.QRect(30, 344, 151, 16))
+        self.label_sigma_conc3.setObjectName("label_sigma_conc3")
+        self.label_conc3 = QtWidgets.QLabel(Dialog_Ref_conc_4ratios)
+        self.label_conc3.setGeometry(QtCore.QRect(20, 270, 201, 16))
+        self.label_conc3.setObjectName("label_conc3")
+        self.label_conc4 = QtWidgets.QLabel(Dialog_Ref_conc_4ratios)
+        self.label_conc4.setGeometry(QtCore.QRect(20, 397, 201, 16))
+        self.label_conc4.setObjectName("label_conc4")
+        self.label_ref_conc4 = QtWidgets.QLabel(Dialog_Ref_conc_4ratios)
+        self.label_ref_conc4.setGeometry(QtCore.QRect(30, 428, 141, 16))
+        self.label_ref_conc4.setObjectName("label_ref_conc4")
+        self.label_sigma_conc4 = QtWidgets.QLabel(Dialog_Ref_conc_4ratios)
+        self.label_sigma_conc4.setGeometry(QtCore.QRect(30, 471, 151, 16))
+        self.label_sigma_conc4.setObjectName("label_sigma_conc4")
+        self.lineEdit_ref_conc1 = QtWidgets.QLineEdit(Dialog_Ref_conc_4ratios)
+        self.lineEdit_ref_conc1.setGeometry(QtCore.QRect(190, 40, 40, 30))
+        self.lineEdit_ref_conc1.setObjectName("lineEdit_ref_conc1")
+        self.lineEdit_sigma_conc1 = QtWidgets.QLineEdit(Dialog_Ref_conc_4ratios)
+        self.lineEdit_sigma_conc1.setGeometry(QtCore.QRect(190, 83, 40, 30))
+        self.lineEdit_sigma_conc1.setObjectName("lineEdit_sigma_conc1")
+        self.lineEdit_ref_conc2 = QtWidgets.QLineEdit(Dialog_Ref_conc_4ratios)
+        self.lineEdit_ref_conc2.setGeometry(QtCore.QRect(190, 167, 40, 30))
+        self.lineEdit_ref_conc2.setObjectName("lineEdit_ref_conc2")
+        self.lineEdit_sigma_conc2 = QtWidgets.QLineEdit(Dialog_Ref_conc_4ratios)
+        self.lineEdit_sigma_conc2.setGeometry(QtCore.QRect(190, 210, 40, 30))
+        self.lineEdit_sigma_conc2.setObjectName("lineEdit_sigma_conc2")
+        self.lineEdit_ref_conc3 = QtWidgets.QLineEdit(Dialog_Ref_conc_4ratios)
+        self.lineEdit_ref_conc3.setGeometry(QtCore.QRect(190, 294, 40, 30))
+        self.lineEdit_ref_conc3.setObjectName("lineEdit_ref_conc3")
+        self.lineEdit_sigma_conc3 = QtWidgets.QLineEdit(Dialog_Ref_conc_4ratios)
+        self.lineEdit_sigma_conc3.setGeometry(QtCore.QRect(190, 337, 40, 30))
+        self.lineEdit_sigma_conc3.setObjectName("lineEdit_sigma_conc3")
+        self.lineEdit_ref_conc4 = QtWidgets.QLineEdit(Dialog_Ref_conc_4ratios)
+        self.lineEdit_ref_conc4.setGeometry(QtCore.QRect(190, 421, 40, 30))
+        self.lineEdit_ref_conc4.setObjectName("lineEdit_ref_conc4")
+        self.lineEdit_sigma_conc4 = QtWidgets.QLineEdit(Dialog_Ref_conc_4ratios)
+        self.lineEdit_sigma_conc4.setGeometry(QtCore.QRect(190, 464, 40, 30))
+        self.lineEdit_sigma_conc4.setObjectName("lineEdit_sigma_conc4")
+
+        self.retranslateUi(Dialog_Ref_conc_4ratios)
+        self.buttonBox_Ref_conc_4ratios_Layout.accepted.connect(Dialog_Ref_conc_4ratios.accept)
+        self.buttonBox_Ref_conc_4ratios_Layout.rejected.connect(Dialog_Ref_conc_4ratios.reject)
+        QtCore.QMetaObject.connectSlotsByName(Dialog_Ref_conc_4ratios)
+
+    def retranslateUi(self, Dialog_Ref_conc_4ratios):
+        _translate = QtCore.QCoreApplication.translate
+        Dialog_Ref_conc_4ratios.setWindowTitle(_translate("Dialog_Ref_conc_4ratios", "Dialog"))
+        self.label_ref_conc1.setText(_translate("Dialog_Ref_conc_4ratios", "Reference value (wt%)"))
+        self.label_conc1.setText(_translate("Dialog_Ref_conc_4ratios", "Standard ratio 1 :"))
+        self.label_sigma_conc1.setText(_translate("Dialog_Ref_conc_4ratios", "Uncertainty (1SD, wt%)"))
+        self.label_ref_conc2.setText(_translate("Dialog_Ref_conc_4ratios", "Reference value (wt%)"))
+        self.label_sigma_conc2.setText(_translate("Dialog_Ref_conc_4ratios", "Uncertainty (1SD, wt%)"))
+        self.label_conc2.setText(_translate("Dialog_Ref_conc_4ratios", "Standard ratio 2 :"))
+        self.label_ref_conc3.setText(_translate("Dialog_Ref_conc_4ratios", "Reference value (wt%)"))
+        self.label_sigma_conc3.setText(_translate("Dialog_Ref_conc_4ratios", "Uncertainty (1SD, wt%)"))
+        self.label_conc3.setText(_translate("Dialog_Ref_conc_4ratios", "Standard ratio 3 :"))
+        self.label_conc4.setText(_translate("Dialog_Ref_conc_4ratios", "Standard ratio 4 :"))
+        self.label_ref_conc4.setText(_translate("Dialog_Ref_conc_4ratios", "Reference value (wt%)"))
+        self.label_sigma_conc4.setText(_translate("Dialog_Ref_conc_4ratios", "Uncertainty (1SD, wt%)"))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    Dialog_Ref_conc_4ratios = QtWidgets.QDialog()
+    ui = Ui_Dialog_Ref_conc_4ratios()
+    ui.setupUi(Dialog_Ref_conc_4ratios)
+    Dialog_Ref_conc_4ratios.show()
+    sys.exit(app.exec_())
+
