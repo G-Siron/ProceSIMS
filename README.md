@@ -6,3 +6,6 @@ It allows to evaluate if a drift correction is required for a session and can pe
 It automatically propagate internal errors (2SE), working standard error (2SE) and uncertainty on the reference value (available when only one standard is used to correct for teh session).
 
 ![name-of-you-image](https://github.com/G-Siron/ProceSIMS/blob/main/Screen%20Shot_ProceSIMS_GUI.png?raw=true)
+
+Installers for Windows and MacOS can be downloaded following this link:
+https://uwmadison.box.com/s/ju39zf9n1a0x4cniwn45piv117lysak3
