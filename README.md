@@ -37,6 +37,9 @@ To start the application, when in the correct folder (and with your virtual envi
 python3 ProceSIMS.py
 ```
 
+You can then open the pdf file of the tutorial to follow steps by steps how to process your data.
+
+
 ## Authors
 
 - Guillaume Siron [@G-Siron](https://github.com/G-Siron)
